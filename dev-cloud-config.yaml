@@ -9,6 +9,9 @@ packages:
   - python3-pip
   - terraform
 
+runcmd:
+  - snap install aws-cli --classic
+
 apt:
   sources:
     hashicorp:
