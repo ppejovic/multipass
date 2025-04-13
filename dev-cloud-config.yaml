@@ -1,0 +1,9 @@
+package_update: true
+package_upgrade: true
+
+packages:
+  - git
+  - jq
+  - openssh-server
+  - pass
+  - python3-pip
