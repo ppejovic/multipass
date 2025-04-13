@@ -14,6 +14,7 @@ fi
 SSH_PUBLIC_KEY=$(cat ~/.ssh/id_rsa.pub)
 
 cat >> "$CLOUD_CONFIG_FILE" <<EOL
+
 ssh_authorized_keys:
   - $SSH_PUBLIC_KEY
 EOL
