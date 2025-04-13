@@ -20,6 +20,8 @@ ssh_authorized_keys:
 EOL
 
 multipass launch \
+    --cpus 2 \
+    --memory 2G \
     --name "$INSTANCE_NAME" \
     --cloud-init "$CLOUD_CONFIG_FILE" \
     lts
